@@ -34,7 +34,7 @@ export const routes: Array<RouteProps> = [
     },
     {
         path: `/latestMeals`,
-        exact: false,
+        exact: true,
         label: 'Latest Meals',
         icon: 'food',
         isNaviItem: true,
@@ -42,7 +42,7 @@ export const routes: Array<RouteProps> = [
     },
     {
         path: `/randomMeals`,
-        exact: false,
+        exact: true,
         label: 'Random Meals',
         icon: 'random',
         isNaviItem: true,
@@ -50,7 +50,7 @@ export const routes: Array<RouteProps> = [
     },
     {
         path: `/browseCountry`,
-        exact: false,
+        exact: true,
         label: 'Browse Country',
         icon: 'globe',
         isNaviItem: true,
