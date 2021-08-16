@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "homepage": "http://sslaoui.githup.io/the-meal-db",
+  "name": "the-meal-db",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://themealdb.com/api/json/v2/9973533",
@@ -27,6 +28,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -62,7 +65,7 @@
     "sass-loader": "^12.0.0",
     "tslint": "6.1.3",
     "tslint-config-prettier": "1.18.0",
-    "tslint-react": "5.0.0"
-  },
-  "homepage": "./"
+    "tslint-react": "5.0.0",
+    "gh-pages": "3.2.3"
+  }
 }
