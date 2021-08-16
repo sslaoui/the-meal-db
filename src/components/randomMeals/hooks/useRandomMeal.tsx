@@ -30,11 +30,12 @@ const randomMealEmptyState: RandomMealState = {
 
 export const useRandomMeal = () => {
     const [randomMealState, setRandomMealState] = useState<RandomMealState>(randomMealEmptyState);
+    const baseURL = "https://themealdb.com/api/json/v2/9973533/random.php";
 
     useEffect(() => {
         const fetchRandomMeals = async () => {
             try {
-                axios.get('random.php').then((res) => {
+                axios.get(baseURL).then((res) => {
                     const randomMeal = res.data.meals[0];
                     const hasRandomMeals = randomMeal.length;
                     setRandomMealState({ randomMeal, hasRandomMeal: hasRandomMeals, isLoading: false, error: null });

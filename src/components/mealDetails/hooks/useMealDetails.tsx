@@ -59,11 +59,12 @@ const mealDetailsEmptyState: MealDetailsState = {
 
 export const useMealDetails = (mealId: string) => {
     const [mealDetailsState, setMealDetailsState] = useState<MealDetailsState>(mealDetailsEmptyState);
+    const baseURL = "https://themealdb.com/api/json/v2/9973533/lookup.php?i=";
 
     useEffect(() => {
         const fetchMealDetails = async () => {
             try {
-                axios.get(`/lookup.php?i=${mealId}`).then((res) => {
+                axios.get(baseURL + mealId).then((res) => {
                     const mealDetails = res.data.meals[0];
                     const hasMealDetails = res.data.meals.length;
                     setMealDetailsState({ mealDetails, hasMealDetails, isLoading: false, error: null });
