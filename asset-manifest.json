@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "https://sslaoui.github.io/static/css/main.0bf566b2.chunk.css",
-    "main.js": "https://sslaoui.github.io/static/js/main.b2390d4e.chunk.js",
-    "main.js.map": "https://sslaoui.github.io/static/js/main.b2390d4e.chunk.js.map",
+    "main.js": "https://sslaoui.github.io/static/js/main.a5c1cec4.chunk.js",
+    "main.js.map": "https://sslaoui.github.io/static/js/main.a5c1cec4.chunk.js.map",
     "runtime-main.js": "https://sslaoui.github.io/static/js/runtime-main.57ede4d6.js",
     "runtime-main.js.map": "https://sslaoui.github.io/static/js/runtime-main.57ede4d6.js.map",
     "static/css/2.4d478ad4.chunk.css": "https://sslaoui.github.io/static/css/2.4d478ad4.chunk.css",
-    "static/js/2.baba7471.chunk.js": "https://sslaoui.github.io/static/js/2.baba7471.chunk.js",
-    "static/js/2.baba7471.chunk.js.map": "https://sslaoui.github.io/static/js/2.baba7471.chunk.js.map",
+    "static/js/2.08588da5.chunk.js": "https://sslaoui.github.io/static/js/2.08588da5.chunk.js",
+    "static/js/2.08588da5.chunk.js.map": "https://sslaoui.github.io/static/js/2.08588da5.chunk.js.map",
     "static/js/3.6fc1a9a0.chunk.js": "https://sslaoui.github.io/static/js/3.6fc1a9a0.chunk.js",
     "static/js/3.6fc1a9a0.chunk.js.map": "https://sslaoui.github.io/static/js/3.6fc1a9a0.chunk.js.map",
     "index.html": "https://sslaoui.github.io/index.html",
     "static/css/2.4d478ad4.chunk.css.map": "https://sslaoui.github.io/static/css/2.4d478ad4.chunk.css.map",
     "static/css/main.0bf566b2.chunk.css.map": "https://sslaoui.github.io/static/css/main.0bf566b2.chunk.css.map",
-    "static/js/2.baba7471.chunk.js.LICENSE.txt": "https://sslaoui.github.io/static/js/2.baba7471.chunk.js.LICENSE.txt",
+    "static/js/2.08588da5.chunk.js.LICENSE.txt": "https://sslaoui.github.io/static/js/2.08588da5.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "https://sslaoui.github.io/static/media/outline-icons.ddae9b1b.woff",
     "static/media/meal_logo.9ee959da.png": "https://sslaoui.github.io/static/media/meal_logo.9ee959da.png"
   },
   "entrypoints": [
     "static/js/runtime-main.57ede4d6.js",
     "static/css/2.4d478ad4.chunk.css",
-    "static/js/2.baba7471.chunk.js",
+    "static/js/2.08588da5.chunk.js",
     "static/css/main.0bf566b2.chunk.css",
-    "static/js/main.b2390d4e.chunk.js"
+    "static/js/main.a5c1cec4.chunk.js"
   ]
 }
