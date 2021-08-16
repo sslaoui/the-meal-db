@@ -10,7 +10,7 @@ import { routes, RouteProps } from './router/routes';
 function App() {
     return (
         <React.Fragment>
-            <BrowserRouter>
+            <BrowserRouter basename={'/the-meal-db'}>
                 <SidebarMenu />
                 <header>
                     <Header as="h2" image={mealLogo} content="The Meal DB" data-cy="pageTitle" />

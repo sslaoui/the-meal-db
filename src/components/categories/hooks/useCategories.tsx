@@ -30,7 +30,7 @@ export const useCategories = () => {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                axios.get('categories.php').then((res) => {
+                axios.get(`${process.env.BACKEND_PUBLIC_URL}/categories.php`).then((res) => {
                     const categories = res.data.categories;
                     const hasCategories = categories.length;
                     setCategoriesState({ categories, hasCategories, isLoading: false, error: null });
