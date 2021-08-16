@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/the-meal-db/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/the-meal-db/static/js/main.c93119a7.chunk.js",
-    "main.js.map": "/the-meal-db/static/js/main.c93119a7.chunk.js.map",
-    "runtime-main.js": "/the-meal-db/static/js/runtime-main.a3157b88.js",
-    "runtime-main.js.map": "/the-meal-db/static/js/runtime-main.a3157b88.js.map",
-    "static/js/2.43f844ff.chunk.js": "/the-meal-db/static/js/2.43f844ff.chunk.js",
-    "static/js/2.43f844ff.chunk.js.map": "/the-meal-db/static/js/2.43f844ff.chunk.js.map",
-    "static/js/3.ed8242a5.chunk.js": "/the-meal-db/static/js/3.ed8242a5.chunk.js",
-    "static/js/3.ed8242a5.chunk.js.map": "/the-meal-db/static/js/3.ed8242a5.chunk.js.map",
+    "main.css": "/the-meal-db/static/css/main.0bf566b2.chunk.css",
+    "main.js": "/the-meal-db/static/js/main.6b1654b0.chunk.js",
+    "main.js.map": "/the-meal-db/static/js/main.6b1654b0.chunk.js.map",
+    "runtime-main.js": "/the-meal-db/static/js/runtime-main.4cd12dbe.js",
+    "runtime-main.js.map": "/the-meal-db/static/js/runtime-main.4cd12dbe.js.map",
+    "static/css/2.53e06554.chunk.css": "/the-meal-db/static/css/2.53e06554.chunk.css",
+    "static/js/2.baba7471.chunk.js": "/the-meal-db/static/js/2.baba7471.chunk.js",
+    "static/js/2.baba7471.chunk.js.map": "/the-meal-db/static/js/2.baba7471.chunk.js.map",
+    "static/js/3.6fc1a9a0.chunk.js": "/the-meal-db/static/js/3.6fc1a9a0.chunk.js",
+    "static/js/3.6fc1a9a0.chunk.js.map": "/the-meal-db/static/js/3.6fc1a9a0.chunk.js.map",
     "index.html": "/the-meal-db/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/the-meal-db/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.43f844ff.chunk.js.LICENSE.txt": "/the-meal-db/static/js/2.43f844ff.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/the-meal-db/static/media/logo.6ce24c58.svg"
+    "static/css/2.53e06554.chunk.css.map": "/the-meal-db/static/css/2.53e06554.chunk.css.map",
+    "static/css/main.0bf566b2.chunk.css.map": "/the-meal-db/static/css/main.0bf566b2.chunk.css.map",
+    "static/js/2.baba7471.chunk.js.LICENSE.txt": "/the-meal-db/static/js/2.baba7471.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/the-meal-db/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/meal_logo.9ee959da.png": "/the-meal-db/static/media/meal_logo.9ee959da.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a3157b88.js",
-    "static/js/2.43f844ff.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c93119a7.chunk.js"
+    "static/js/runtime-main.4cd12dbe.js",
+    "static/css/2.53e06554.chunk.css",
+    "static/js/2.baba7471.chunk.js",
+    "static/css/main.0bf566b2.chunk.css",
+    "static/js/main.6b1654b0.chunk.js"
   ]
 }
