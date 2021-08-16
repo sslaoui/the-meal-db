@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://sslaoui.github.io/the-meal-db/static/css/main.0bf566b2.chunk.css",
-    "main.js": "https://sslaoui.github.io/the-meal-db/static/js/main.b2f98ee8.chunk.js",
-    "main.js.map": "https://sslaoui.github.io/the-meal-db/static/js/main.b2f98ee8.chunk.js.map",
+    "main.js": "https://sslaoui.github.io/the-meal-db/static/js/main.dcde4286.chunk.js",
+    "main.js.map": "https://sslaoui.github.io/the-meal-db/static/js/main.dcde4286.chunk.js.map",
     "runtime-main.js": "https://sslaoui.github.io/the-meal-db/static/js/runtime-main.49f810d8.js",
     "runtime-main.js.map": "https://sslaoui.github.io/the-meal-db/static/js/runtime-main.49f810d8.js.map",
     "static/css/2.ae553365.chunk.css": "https://sslaoui.github.io/the-meal-db/static/css/2.ae553365.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.ae553365.chunk.css",
     "static/js/2.08588da5.chunk.js",
     "static/css/main.0bf566b2.chunk.css",
-    "static/js/main.b2f98ee8.chunk.js"
+    "static/js/main.dcde4286.chunk.js"
   ]
 }
