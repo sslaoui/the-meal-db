@@ -26,11 +26,12 @@ const categoriesEmptyState: CategoriesState = {
 
 export const useCategories = () => {
     const [categoriesState, setCategoriesState] = useState<CategoriesState>(categoriesEmptyState);
+    const baseURL = "http://themealdb.com/api/json/v2/9973533/categories.php";
 
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                axios.get(`${process.env.REACT_APP_API_URL}/categoriesssss.php`).then((res) => {
+                axios.get(baseURL).then((res) => {
                     const categories = res.data.categories;
                     const hasCategories = categories.length;
                     setCategoriesState({ categories, hasCategories, isLoading: false, error: null });
