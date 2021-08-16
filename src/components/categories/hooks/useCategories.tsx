@@ -30,7 +30,7 @@ export const useCategories = () => {
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                axios.get(`http://themealdb.com/api/json/v2/9973533/categories.php`).then((res) => {
+                axios.get(`/categories.php`).then((res) => {
                     const categories = res.data.categories;
                     const hasCategories = categories.length;
                     setCategoriesState({ categories, hasCategories, isLoading: false, error: null });
