@@ -19,7 +19,7 @@ export type RouteProps = {
 
 export const routes: Array<RouteProps> = [
     {
-        path: `/`,
+        path: `${process.env.PUBLIC_URL}/`,
         exact: true,
         label: 'Categories',
         icon: 'list ul',
@@ -27,13 +27,13 @@ export const routes: Array<RouteProps> = [
         component: Categories,
     },
     {
-        path: `/categories/:id`,
+        path: `${process.env.PUBLIC_URL}/categories/:id`,
         exact: true,
         isNaviItem: false,
         component: Category,
     },
     {
-        path: `/latestMeals`,
+        path: `${process.env.PUBLIC_URL}/latestMeals`,
         exact: false,
         label: 'Latest Meals',
         icon: 'food',
@@ -41,7 +41,7 @@ export const routes: Array<RouteProps> = [
         component: LatestMeals,
     },
     {
-        path: `/randomMeals`,
+        path: `${process.env.PUBLIC_URL}/randomMeals`,
         exact: false,
         label: 'Random Meals',
         icon: 'random',
@@ -49,7 +49,7 @@ export const routes: Array<RouteProps> = [
         component: RandomMeals,
     },
     {
-        path: `/browseCountry`,
+        path: `${process.env.PUBLIC_URL}/browseCountry`,
         exact: false,
         label: 'Browse Country',
         icon: 'globe',
