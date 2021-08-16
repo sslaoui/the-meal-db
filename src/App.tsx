@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import SidebarMenu from './components/SidebarMenu';
 import './App.scss';
 import { Header } from 'semantic-ui-react';
@@ -10,7 +10,7 @@ import { routes, RouteProps } from './router/routes';
 function App() {
     return (
         <React.Fragment>
-            <HashRouter basename={'/the-meal-db'}>
+            <BrowserRouter basename={'/the-meal-db'}>
                 <SidebarMenu />
                 <header>
                     <Header as="h2" image={mealLogo} content="The Meal DB" data-cy="pageTitle" />
@@ -23,7 +23,7 @@ function App() {
                         <Route component={NotFound} />
                     </Switch>
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         </React.Fragment>
     );
 }
