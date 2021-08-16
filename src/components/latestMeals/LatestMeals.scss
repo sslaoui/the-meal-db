@@ -1,0 +1,9 @@
+.container .latest-meals-container .ui.items > .item {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    .content {
+        .label {
+            margin-left: 10px;
+        }
+    }
+}

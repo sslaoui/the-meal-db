@@ -1,0 +1,13 @@
+.categories-container {
+    .ui.grid {
+        .column {
+            .ui.card {
+                cursor: pointer;
+                &:hover {
+                    box-shadow: 0 0 21px rgba(33, 33, 33, 0.2);
+                    transform: translateY(1px);
+                }
+            }
+        }
+    }
+}
