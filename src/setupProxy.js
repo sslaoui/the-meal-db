@@ -8,4 +8,11 @@ module.exports = function (app) {
             changeOrigin: true,
         })
     );
+    app.use(
+        createProxyMiddleware('/latest', {
+            target: 'http://themealdb.com/api/json/v2/9973533/',
+            secure: false,
+            changeOrigin: true,
+        })
+    );
 };
