@@ -4,7 +4,7 @@ import { RouteComponentProps } from 'react-router';
 import Categories from '../components/categories/Categories';
 import LatestMeals from '../components/latestMeals/LatestMeals';
 import RandomMeals from '../components/randomMeals/RandomMeals';
-import BrowseCountry from '../components/browseCountry/BrowseCountry';
+import Dashboard from '../components/dashboard/Dashboard';
 import Category from '../components/category/Category';
 
 export type RouteProps = {
@@ -19,7 +19,15 @@ export type RouteProps = {
 
 export const routes: Array<RouteProps> = [
     {
-        path: `/`,
+        path: '/',
+        exact: true,
+        label: 'Dashboard',
+        icon: 'dashboard',
+        isNaviItem: true,
+        component: Dashboard,
+    },
+    {
+        path: '/categories',
         exact: true,
         label: 'Categories',
         icon: 'list ul',
@@ -27,13 +35,13 @@ export const routes: Array<RouteProps> = [
         component: Categories,
     },
     {
-        path: `/categories/:id`,
+        path: '/categories/:id',
         exact: true,
         isNaviItem: false,
         component: Category,
     },
     {
-        path: `/latestMeals`,
+        path: '/latestMeals',
         exact: true,
         label: 'Latest Meals',
         icon: 'food',
@@ -41,19 +49,11 @@ export const routes: Array<RouteProps> = [
         component: LatestMeals,
     },
     {
-        path: `/randomMeals`,
+        path: '/randomMeals',
         exact: true,
         label: 'Random Meals',
         icon: 'random',
         isNaviItem: true,
         component: RandomMeals,
-    },
-    {
-        path: `/browseCountry`,
-        exact: true,
-        label: 'Browse Country',
-        icon: 'globe',
-        isNaviItem: true,
-        component: BrowseCountry,
     },
 ];

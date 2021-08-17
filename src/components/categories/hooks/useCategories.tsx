@@ -26,7 +26,7 @@ const categoriesEmptyState: CategoriesState = {
 
 export const useCategories = () => {
     const [categoriesState, setCategoriesState] = useState<CategoriesState>(categoriesEmptyState);
-    const baseURL = "https://themealdb.com/api/json/v2/9973533/categories.php";
+    const baseURL = 'https://themealdb.com/api/json/v2/9973533/categories.php';
 
     useEffect(() => {
         const fetchCategories = async () => {

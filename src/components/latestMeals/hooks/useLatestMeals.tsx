@@ -30,7 +30,7 @@ const latestMealsEmptyState: LatestMealsState = {
 
 export const useLatestMeals = () => {
     const [latestMealsState, setLatestMealsState] = useState<LatestMealsState>(latestMealsEmptyState);
-    const baseURL = "https://themealdb.com/api/json/v2/9973533/latest.php";
+    const baseURL = 'https://themealdb.com/api/json/v2/9973533/latest.php';
 
     useEffect(() => {
         const fetchLatestMeals = async () => {

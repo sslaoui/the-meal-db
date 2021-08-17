@@ -18,16 +18,16 @@ const mealsEmptyState: MealsState = {
     error: null,
 };
 
-export const useCategory = (categoryId: string) => {
+export const useBrowseByName = (mealsFirstLetter: string) => {
     const [mealsState, setMealsState] = useState<MealsState>(mealsEmptyState);
-    const baseURL = 'https://themealdb.com/api/json/v2/9973533/filter.php?c=';
+    const baseURL = 'https://themealdb.com/api/json/v1/1/search.php?f=';
 
     useEffect(() => {
-        const fetchCategory = async () => {
+        const fetchMealsByName = async () => {
             try {
-                axios.get(baseURL + categoryId).then((res) => {
+                axios.get(baseURL + mealsFirstLetter).then((res) => {
                     const meals = res.data.meals;
-                    const hasMeals = meals.length;
+                    const hasMeals = meals ? meals.length : false;
                     setMealsState({ meals, hasMeals, isLoading: false, error: null });
                 });
             } catch (error) {
@@ -37,8 +37,8 @@ export const useCategory = (categoryId: string) => {
             }
         };
 
-        fetchCategory();
-    }, [categoryId]);
+        if (mealsFirstLetter) fetchMealsByName();
+    }, [mealsFirstLetter]);
 
     return { ...mealsState };
 };

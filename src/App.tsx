@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import SidebarMenu from './components/SidebarMenu';
 import './App.scss';
 import { Header } from 'semantic-ui-react';
